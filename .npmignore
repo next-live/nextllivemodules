@@ -1,11 +1,5 @@
-components
-lib
 node_modules
-pages
-services
-utils
-index.ts
-NextLive.tsx
+.git
+src
+rollup.config.ts
 tsconfig.json
-tsup.config.ts
-vite.config.ts
