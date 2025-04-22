@@ -1,8 +1,8 @@
 {
-  "name": "nextlivemodule",
+  "name": "@nextlive/nextlive",
   "version": "1.0.0",
   "description": "NextLive - A React component for live code editing and AI assistance",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "dist": "dist"
   },

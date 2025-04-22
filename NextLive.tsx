@@ -484,7 +484,7 @@ const NextLive: React.FC<NextLiveProps> = ({ children, skipDevelopmentCheck = fa
         if (response.ok) {
           const data = await response.json();
           const latestVersion = data.tag_name.replace('v', '');
-          const needsUpdate = latestVersion !== CURRENT_VERSION;
+          const needsUpdate = false;
           setVersionInfo({
             currentVersion: CURRENT_VERSION,
             latestVersion,
